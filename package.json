@@ -1,0 +1,37 @@
+{
+  "name": "node-service",
+  "version": "1.0.0",
+  "description": "Node js services",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Fleming Parmar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "helmet": "^3.13.0",
+    "jsonwebtoken": "^8.3.0",
+    "jwt-simple": "^0.5.1",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "^1.9.0",
+    "multer": "^1.4.2",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "*",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.1"
+  }
+}
